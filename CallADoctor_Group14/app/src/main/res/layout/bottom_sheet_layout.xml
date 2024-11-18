@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idRLBSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_500"
+    android:padding="4dp">
+
+    <!--text view for displaying course name-->
+    <TextView
+        android:id="@+id/idTVClinicName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:padding="4dp"
+        android:text="Clinic Name"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idTVUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:padding="4dp"
+        android:layout_below="@id/idTVClinicName"
+
+        android:text="UserName"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+    <!--text view for displaying course description-->
+    <TextView
+        android:id="@+id/idTVStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVUserName"
+
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="3dp"
+        android:text="Status"
+        android:textColor="@color/white" />
+
+    <!--text view for displaying course best suited for-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVStatus"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <!--button for editing course-->
+        <Button
+            android:id="@+id/idBtnActivate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:text="Activate / Deactivate"
+            android:textAllCaps="false" />
+
+        <!--button for viewing course details-->
+        <Button
+            android:id="@+id/idBtnVIewDetails"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:text="View On Map"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/idBtnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:text="Delete Account"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</RelativeLayout>

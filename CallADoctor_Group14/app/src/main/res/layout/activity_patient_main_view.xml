@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    tools:context=".PatientMainView">
+
+    <!--text view for displaying a text on
+        clicking we will open a login page-->
+    <Button
+        android:id="@+id/idBtnNewR"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_back_button"
+        android:gravity="center"
+        android:text="New Request"
+        android:textAllCaps="false"
+        android:textColor="@color/black_shade_1"
+        android:textSize="15dp" />
+
+
+
+    <Button
+        android:id="@+id/idBtnDoctors"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/idBtnNewR"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_back_button"
+        android:gravity="center"
+        android:text="Appointments"
+        android:textAllCaps="false"
+        android:textColor="@color/black_shade_1"
+        android:textSize="15dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/idLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/baseline_logout_24"
+        app:background="@color/black_shade_1"
+        app:backgroundTint="@color/black_shade_2"
+        app:tint="@color/white" />
+
+
+
+
+
+</RelativeLayout>

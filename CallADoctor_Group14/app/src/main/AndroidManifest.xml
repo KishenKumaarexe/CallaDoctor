@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBfvJXqweWRJWuN5RRhkuEAGG2lkRm_OoQ"></meta-data>
+        <activity
+            android:name=".AdministratorMap"
+            android:exported="true" />
+        <activity
+            android:name=".PatientClinicMap"
+            android:exported="false" />
+        <activity
+            android:name=".PatientClinicView"
+            android:exported="false" />
+        <activity
+            android:name=".PatientPrescriptionView"
+            android:exported="false" />
+        <activity
+            android:name=".PatientBookView"
+            android:exported="false" />
+        <activity
+            android:name=".PatientMainView"
+            android:exported="false" />
+        <activity
+            android:name=".PatientLogin"
+            android:exported="false" />
+        <activity
+            android:name=".PatientRegister"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorPatientPrescription"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorPatientHistory"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorAppoinmentView"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorMainView"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorLogin"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicDoctorDetailView"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicPastView"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicPatientAccept"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicDoctorRegister"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicDoctorView"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicPatientView"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicMainView"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicRegister"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicLogin"
+            android:exported="false" />
+        <activity
+            android:name=".AdministratorClinicView"
+            android:exported="false" />
+        <activity
+            android:name=".AdministratorLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

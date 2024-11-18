@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "392058882177",
+    "firebase_url": "https://call-a-doctor-db93c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "call-a-doctor-db93c",
+    "storage_bucket": "call-a-doctor-db93c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392058882177:android:ae866716fe3b4eec9da580",
+        "android_client_info": {
+          "package_name": "com.example.cad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNdCu8rz_snZzlNoenjzyHEdLC9gQLevc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

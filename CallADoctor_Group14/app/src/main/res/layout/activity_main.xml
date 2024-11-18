@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#620225"
+    tools:context=".MainActivity">
+
+    <!-- Button for Project Admin -->
+    <Button
+        android:id="@+id/idBtnSuper"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_back_button"
+        android:gravity="center"
+        android:text="Project Admin"
+        android:textAllCaps="false"
+        android:textColor="@color/black_shade_1"
+        android:textSize="15dp" />
+
+    <!-- Button for Clinic Admin -->
+    <Button
+        android:id="@+id/idBtnClinic"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/idBtnSuper"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_back_button"
+        android:gravity="center"
+        android:text="Clinic Admin"
+        android:textAllCaps="false"
+        android:textColor="@color/black_shade_1"
+        android:textSize="15dp" />
+
+    <!-- Button for Doctor -->
+    <Button
+        android:id="@+id/idBtnDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/idBtnClinic"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_back_button"
+        android:gravity="center"
+        android:text="Doctor"
+        android:textAllCaps="false"
+        android:textColor="@color/black_shade_1"
+        android:textSize="15dp" />
+
+    <!-- Button for Patient -->
+    <Button
+        android:id="@+id/idBtnPatient"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/idBtnDoctor"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_back_button"
+        android:gravity="center"
+        android:text="Patient"
+        android:textAllCaps="false"
+        android:textColor="@color/black_shade_1"
+        android:textSize="15dp" />
+
+    <!-- Button for Logging In -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/idBtnPatient"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/custom_back_button"
+        android:gravity="center"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="@color/black_shade_1"
+        android:textSize="15dp" />
+</RelativeLayout>
